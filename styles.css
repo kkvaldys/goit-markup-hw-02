@@ -1,0 +1,166 @@
+html,
+body {
+  max-width: 100%;
+  min-height: 100%;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Roboto;
+  color: #434455;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  height: 72px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2e2f42;
+}
+
+h2 {
+  margin: 120px 0 72px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.horizontal-list {
+  display: flex;
+  margin-left: 156px;
+  padding: 0;
+}
+.horizontal-list li {
+  border: 1px solid #e7e9fc;
+  margin-right: 24px;
+  text-align: left;
+}
+
+.horizontal-list li img {
+  margin-bottom: 32px;
+}
+
+header ul.horizontal-list {
+  margin: 0 0 0 76px;
+}
+
+header ul.horizontal-list li {
+  border: none;
+}
+
+nav {
+  display: flex;
+  border: 0px;
+}
+
+section {
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  color: #ffffff;
+  background-color: #2e2f42;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+button {
+  gap: 10px;
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 48px;
+}
+
+.header-first {
+  color: #ffffff;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  width: 496px;
+}
+
+.Portfolio .horizontal-list li {
+  margin: 48px 24px 48px 0;
+}
+
+.Benefits {
+  display: flex;
+  width: 1440px;
+  height: 344px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Benefits ul li {
+  width: 264px;
+  height: 104px;
+}
+
+.Benefits h3 {
+  margin-top: 0;
+}
+
+.Our-Team {
+  display: flex;
+  background-color: #f4f4fd;
+  height: 732px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Our-Team li {
+  text-align: center;
+}
+
+.Team {
+  width: 1440px;
+}
+
+.Our-Team .horizontal-list li img {
+  box-sizing: border-box;
+  width: 264px;
+  border: 1px solid #e7e9fc;
+}
+
+.foot {
+  display: flex;
+  background-color: #2e2f42;
+  height: 312px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.logo,
+.foot-p {
+  margin-left: 156px;
+}
+
+.foot-p {
+  width: 264px;
+}
