@@ -63,6 +63,10 @@ section {
   justify-content: center;
 }
 
+.top-logo {
+  color: #2e2f42;
+}
+
 .button {
   background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
