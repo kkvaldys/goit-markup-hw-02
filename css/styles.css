@@ -1,6 +1,4 @@
 body {
-  min-height: 100%;
-  align-items: center;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
 }
@@ -11,9 +9,7 @@ body {
 }
 
 header {
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
 
   margin: 0;
   background-color: #ffffff;
@@ -65,7 +61,6 @@ section {
   color: #ffffff;
   background-color: #2e2f42;
   justify-content: center;
-  align-items: center;
 }
 
 button {
@@ -91,12 +86,7 @@ button {
 }
 
 .Benefits {
-  height: 344px;
   justify-content: center;
-}
-
-.Benefits ul li {
-  height: 104px;
 }
 
 .Benefits h3 {
@@ -105,7 +95,6 @@ button {
 
 .Our-Team {
   background-color: #f4f4fd;
-  height: 732px;
   justify-content: center;
 }
 
@@ -115,9 +104,7 @@ button {
 
 .foot {
   background-color: #2e2f42;
-  height: 312px;
   color: #ffffff;
-  align-items: center;
 }
 
 .logo,
