@@ -1,7 +1,7 @@
-body {
+/* body {
   margin: 0 auto;
   font-family: Roboto, sans-serif;
-}
+} */
 
 body {
   color: #434455;
@@ -63,18 +63,28 @@ section {
   justify-content: center;
 }
 
-button {
+.button {
   background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   margin-top: 48px;
 }
 
-.header_first {
+.button:hover:focus {
+  background-color: #404bbf;
+}
+
+.h_one {
   color: #ffffff;
   margin: 0;
   font-family: Roboto;
   font-size: 56px;
+  line-height: 1.07;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
@@ -121,3 +131,40 @@ button {
   text-transform: uppercase;
   color: #4d5ae5;
 } */
+
+.link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
+
+address {
+  font-style: normal;
+}
+
+.mail:hover:focus {
+  color: #404bbf;
+}
+
+.headline {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.Benefits_par {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
