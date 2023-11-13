@@ -1,5 +1,4 @@
 body {
-  max-width: 100%;
   min-height: 100%;
   align-items: center;
   margin: 0 auto;
@@ -12,15 +11,13 @@ body {
 }
 
 header {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+
   margin: 0;
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
-  height: 72px;
 }
 
 h1,
@@ -46,9 +43,7 @@ ol {
 }
 
 .horizontal-list {
-  display: flex;
   margin-left: 156px;
-  padding: 0;
 }
 .horizontal-list li {
   border: 1px solid #e7e9fc;
@@ -69,7 +64,6 @@ header ul.horizontal-list li {
 }
 
 nav {
-  display: flex;
   border: 0px;
 }
 
@@ -78,18 +72,13 @@ section {
 }
 
 .hero {
-  display: flex;
   color: #ffffff;
   background-color: #2e2f42;
-  height: 100%;
   justify-content: center;
   align-items: center;
-  height: 600px;
 }
 
 button {
-  gap: 10px;
-  padding: 16px 32px;
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
@@ -105,7 +94,6 @@ button {
   line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
-  width: 496px;
 }
 
 .Portfolio .horizontal-list li {
@@ -113,15 +101,11 @@ button {
 }
 
 .Benefits {
-  display: flex;
-  width: 1440px;
   height: 344px;
   justify-content: center;
-  align-items: center;
 }
 
 .Benefits ul li {
-  width: 264px;
   height: 104px;
 }
 
@@ -130,29 +114,21 @@ button {
 }
 
 .Our-Team {
-  display: flex;
   background-color: #f4f4fd;
   height: 732px;
   justify-content: center;
-  align-items: center;
 }
 
 .Our-Team li {
   text-align: center;
 }
 
-.Team {
-  width: 1440px;
-}
-
 .Our-Team .horizontal-list li img {
   box-sizing: border-box;
-  width: 264px;
   border: 1px solid #e7e9fc;
 }
 
 .foot {
-  display: flex;
   background-color: #2e2f42;
   height: 312px;
   color: #ffffff;
@@ -162,8 +138,4 @@ button {
 .logo,
 .foot-p {
   margin-left: 156px;
-}
-
-.foot-p {
-  width: 264px;
 }
