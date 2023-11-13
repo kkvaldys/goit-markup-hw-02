@@ -37,19 +37,19 @@ ol {
   list-style-type: none;
 }
 
-.horizontal-list {
+.horizontal_list {
   margin-left: 156px;
 }
-.horizontal-list li {
+.horizontal_list li {
   margin-right: 24px;
   text-align: left;
 }
 
-.horizontal-list li img {
+.horizontal_list li img {
   margin-bottom: 32px;
 }
 
-header ul.horizontal-list {
+header ul.horizontal_list {
   margin: 0 0 0 76px;
 }
 
@@ -70,7 +70,7 @@ button {
   margin-top: 48px;
 }
 
-.header-first {
+.header_first {
   color: #ffffff;
   margin: 0;
   font-family: Roboto;
@@ -81,7 +81,7 @@ button {
   text-align: center;
 }
 
-.Portfolio .horizontal-list li {
+.Portfolio .horizontal_list li {
   margin: 48px 24px 48px 0;
 }
 
@@ -93,12 +93,12 @@ button {
   margin-top: 0;
 }
 
-.Our-Team {
+.Our_Team {
   background-color: #f4f4fd;
   justify-content: center;
 }
 
-.Our-Team li {
+.Our_Team li {
   text-align: center;
 }
 
