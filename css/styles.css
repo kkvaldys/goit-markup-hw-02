@@ -17,7 +17,6 @@ header {
 
   margin: 0;
   background-color: #ffffff;
-  border: 1px solid #e7e9fc;
 }
 
 h1,
@@ -46,7 +45,6 @@ ol {
   margin-left: 156px;
 }
 .horizontal-list li {
-  border: 1px solid #e7e9fc;
   margin-right: 24px;
   text-align: left;
 }
@@ -57,14 +55,6 @@ ol {
 
 header ul.horizontal-list {
   margin: 0 0 0 76px;
-}
-
-header ul.horizontal-list li {
-  border: none;
-}
-
-nav {
-  border: 0px;
 }
 
 section {
@@ -121,11 +111,6 @@ button {
 
 .Our-Team li {
   text-align: center;
-}
-
-.Our-Team .horizontal-list li img {
-  box-sizing: border-box;
-  border: 1px solid #e7e9fc;
 }
 
 .foot {
