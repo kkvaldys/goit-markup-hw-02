@@ -180,6 +180,16 @@ section {
   color: #434455;
 }
 
+.link_a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
 .link_a:hover {
+  color: #404bbf;
+}
+
+.link_a:focus {
   color: #404bbf;
 }
