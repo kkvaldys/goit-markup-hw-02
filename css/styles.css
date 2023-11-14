@@ -170,7 +170,7 @@ ol {
   letter-spacing: 0.02em;
 }
 
-.step {
+.end {
   background-color: #2e2f42;
 }
 
@@ -185,5 +185,11 @@ ol {
 }
 
 .logo_bot {
+  color: #f4f4fd;
+}
+
+.last {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
