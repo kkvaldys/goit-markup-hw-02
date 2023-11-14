@@ -145,8 +145,16 @@ section {
   color: #404bbf;
 }
 
-address {
+.contacts {
   font-style: normal;
+}
+
+.contacts:hover {
+  color: #404bbf;
+}
+
+.contacts:focus {
+  color: #404bbf;
 }
 
 .mail:hover {
