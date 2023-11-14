@@ -132,18 +132,18 @@ section {
   color: #4d5ae5;
 } */
 
-/* .link_a {
+.link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link_a:hover {
+.link:hover {
   color: #404bbf;
 }
 
-.link_a:focus {
+.link:focus {
   color: #404bbf;
-} */
+}
 
 address {
   font-style: normal;
