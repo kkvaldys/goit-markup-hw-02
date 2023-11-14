@@ -63,10 +63,6 @@ section {
   justify-content: center;
 }
 
-.logo span {
-  color: #2e2f42;
-}
-
 .button {
   background-color: #4d5ae5;
   font-family: Roboto, sans-serif;
@@ -136,17 +132,16 @@ section {
   color: #4d5ae5;
 } */
 
-.link {
+.link_a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.link:hover {
+.link_a:hover {
   color: #404bbf;
 }
 
-.link:focus {
+.link_a:focus {
   color: #404bbf;
 }
 
@@ -154,7 +149,11 @@ address {
   font-style: normal;
 }
 
-.mail:hover:focus {
+.mail:hover {
+  color: #404bbf;
+}
+
+.mail:focus {
   color: #404bbf;
 }
 
